@@ -3,7 +3,7 @@ import Label from "../atoms/Label";
 
 function Field(props) {
     return (
-        <div style={{width:"80%"}}>
+        <div style={{width:"100%"}}>
             <div>
                 <Label text={props.text}/>
             </div>

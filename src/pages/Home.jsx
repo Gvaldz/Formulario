@@ -7,10 +7,11 @@ import './Home.css';
 function Home() {
     const [alumnos, setAlumnos] = useState(new LinkedList());
     const [update, setUpdate] = useState(0); 
+
     const addAlumno = (alumno) => {
         alumnos.push(alumno);
         setAlumnos(alumnos); 
-        setUpdate(prev => prev + 1); 
+        setUpdate(prev => prev + 1);
     };
 
     return (

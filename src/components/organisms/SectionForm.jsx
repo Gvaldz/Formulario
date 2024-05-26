@@ -98,7 +98,7 @@ function SectionForm({ addAlumno }) {
                     val={values.edad} 
                     fnVal={(value) => setValues({ ...values, edad: value })} 
                 />
-                <div style={{ width: "80%" }}>
+                <div style={{ width: "100%" }}>
                     <Label text="Cinta" />
                     <select 
                         name="cinta" 
@@ -120,7 +120,7 @@ function SectionForm({ addAlumno }) {
                         ))}
                     </select>
                 </div>
-                <div style={{ width: "80%" }}>
+                <div style={{ width: "100%" }}>
                     <Label text="Días" />
                     {diasDeLaSemana.map((dia) => (
                         <label key={dia} style={{ display: "block", marginBottom: "5px" }}>

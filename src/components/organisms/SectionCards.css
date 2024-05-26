@@ -1,0 +1,9 @@
+#section_cards{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 1%;
+    background-color: white;
+    justify-content: space-around;
+    display: flex;
+}
